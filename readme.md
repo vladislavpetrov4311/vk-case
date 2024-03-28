@@ -3,7 +3,7 @@
 ## Инструкция по запуску:
 1. В локальной директории из терминала выполняем команду: 
 
-    `git clone https://github.com/vladislavpetrov4311/vk-test.git`
+    `git clone https://github.com/vladislavpetrov4311/vk-case.git`
 2. В этой же директории из терминала запускаем: 
 
     `docker-compose up`
