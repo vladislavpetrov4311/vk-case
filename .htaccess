@@ -1,0 +1,11 @@
+RewriteEngine On
+
+#в url перенаправление на соотвествующий файл
+RewriteRule ^register$ register.php [L] 
+RewriteRule ^authorize$ authorize.php [L]
+RewriteRule ^feed$ feed.php [L]
+
+#если попытка обращения к несуществующим файлам, 404 ошибка
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ 404.php [L]
