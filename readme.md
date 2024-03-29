@@ -10,23 +10,23 @@
 
 ## Пример работы в Postman
 
-### 1. /register
+### 1. localhost:9000/register
 
 ![Alt text](example/register.png)
 
-`Это задание в исходниках см. файлы: register.php и Register_class.php`
+`Реализация в файлах: register.php и Register_class.php`
 
-### 2. /authorize
+### 2. localhost:9000/authorize
 
 ![Alt text](example/authorize.png)
 
-`Это задание в исходниках см. файлы: authorize.php и Authorize_class.php`
+`Реализация в файлах: authorize.php и Authorize_class.php`
 
-### 3. /feed
+### 3. localhost:9000/feed
 
 ![Alt text](example/feed.png)
 
-`Это задание в исходниках см. файл: feed.php`
+`Реализация в файле: feed.php`
 
 
 ### На случай, если нужно просмотреть визуально Базу Данных 
